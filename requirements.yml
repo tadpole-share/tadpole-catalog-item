@@ -1,5 +1,5 @@
 # Import role stored in public git repository
-#- src: git+https://gitlab.com/research-cloud/sample-catalog-item.git
+#- src: git+https://github.com/tadpole-share/tadpole-catalog-item.git
 
 ########## Other Examples ###########
 
