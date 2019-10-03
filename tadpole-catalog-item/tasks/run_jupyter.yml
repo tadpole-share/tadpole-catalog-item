@@ -1,0 +1,10 @@
+- name: Start the Tadpole Jupyter instance
+  shell: |
+    apt-get update
+    apt-get install -y git
+    git clone https://github.com/tadpole-share/lab-server.git
+    cd lab-server
+    sh setup.sh password
+  args:
+    executable: /usr/bin/bash
+  #delegate_to: localhost
